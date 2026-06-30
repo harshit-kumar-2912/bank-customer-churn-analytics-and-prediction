@@ -1,66 +1,233 @@
-<div align="center">
-  <h1>
-    End-to-End Banking Customer Churn Analytics & Predictive Modeling
-  </h1>
-</div>
+# 🏦 Bank Customer Churn Analytics & Prediction
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SQL-Advanced%20Analytics-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Statistics-Hypothesis%20Testing-orange?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Machine%20Learning-Churn%20Classification-success?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Tableau-Interactive%20Dashboard-purple?style=flat-square"/>
-</p>
+An end-to-end data analytics and machine learning project designed to identify customers at risk of leaving a bank and support proactive retention strategies.
+
+The project combines SQL, Python, Statistical Analysis, Machine Learning, and Tableau to transform raw banking data into actionable business insights.
 
 ---
 
-## 🧠 Business Problem
+## 🚀 Project Highlights
 
-In the highly competitive banking industry, customer retention is a key driver of profitability. Acquiring new customers is significantly more expensive than retaining existing ones. However, many banks lack a structured, data-driven approach to proactively identify customers at risk of churn. 
+✅ Data Ingestion & Cleaning using SQL and Python
 
----
+✅ Exploratory Data Analysis (EDA)
 
-## 🎯 Objective 
+✅ Statistical Hypothesis Testing
 
-The ultimate goal was to enable the bank to proactively identify high-risk customers and optimize retention strategies. The objective of this project was to:
--	Analyze historical customer and account data to understand key drivers of churn
--	Statistically validate relationships between customer attributes and churn behavior
--	Build a predictive machine learning model to estimate churn probability
--	Develop an interactive Tableau dashboard to support retention decision-making
+✅ Feature Engineering & Preprocessing
 
----
+✅ Machine Learning-Based Churn Prediction
 
-## 📊 Data & Inputs
+✅ Interactive Tableau Dashboard
 
-- The project utilized structured relational banking data stored in SQL Server and modeled into normalized tables:
--	Demographic, Account and Locations Table
+✅ Business Recommendations for Customer Retention
 
 ---
 
-## ⚙️ Technical Approach
+## 🎯 Business Problem
 
-- Designed relational data model (Demographic–Account–Location)
--	Created ERD and implemented schema in SQL Server and Performed advanced SQL EDA
--	Built reusable preprocessing functions in Python for Data type validation, Missing value checks, Categorical sanity checks & Distribution and outlier Detection
--	Statistical Hypothesis Testing (Independent Samples t-test, Chi-Square Test of Independence, ANOVA, Effect Size Metrics)
--	Performed feature engineering and feature scaling to preprocess data
--	Implemented different ML prediction algorithms to find the best model as a baseline model
--	Designed an interactive Tableau dashboard based on stakeholder requirements
+Customer acquisition costs significantly exceed customer retention costs in the banking industry. Losing existing customers directly impacts profitability and long-term growth.
+
+This project aims to identify customers likely to churn and uncover the key factors influencing their decisions so that retention strategies can be implemented proactively.
 
 ---
 
-## 🛠 Key Skills Demonstrated
+## 📌 Objectives
 
-- End-to-end data science workflow (SQL, Python, Statistical Inference, ML, Tableau)
--	Relational data modeling & SQL analytics
--	Statistical hypothesis testing in real-world business context
--	Feature engineering driven by statistical validation
--	Predictive modeling for churn classification
--	BI dashboard design aligned with stakeholder requirements
--	Translating data insights into actionable business strategy
+- Analyze customer demographics, accounts, and location data.
+- Discover the major drivers behind customer churn.
+- Validate relationships using statistical methods.
+- Develop predictive machine learning models.
+- Build an interactive dashboard for decision-makers.
+- Generate actionable business recommendations.
 
 ---
 
-## 🎥 YouTube Walkthrough
- 
-https://youtu.be/8sfXdtYft74
+## 🏗️ Project Architecture
 
+```text
+Raw Data
+   ↓
+SQL Database Design
+   ↓
+Data Cleaning & Validation (Python)
+   ↓
+Exploratory Data Analysis
+   ↓
+Statistical Testing
+   ↓
+Feature Engineering
+   ↓
+Machine Learning Models
+   ↓
+Tableau Dashboard
+   ↓
+Business Insights
+```
+
+---
+
+## 📂 Repository Structure
+
+```text
+Bank Customer Churn Analytics & Prediction
+│
+├── data
+│   ├── raw
+│   └── processed
+│
+├── scripts
+│   ├── data_ingestion
+│   ├── data_cleaning
+│   └── utils
+│
+├── eda_queries
+│
+├── statistical_testing
+│
+├── predictive_modelling
+│   ├── experiments
+│   └── processed_data
+│
+├── data_visualization
+│   └── Churn Prediction.twb
+│
+└── documentation
+    ├── docs
+    └── figures
+```
+
+---
+
+## 🛠️ Technologies Used
+
+| Category | Tools |
+|----------|--------|
+| Database | SQL Server |
+| Query Language | SQL |
+| Programming | Python |
+| Data Processing | Pandas, NumPy |
+| Statistical Analysis | SciPy, Statsmodels |
+| Machine Learning | Scikit-Learn, XGBoost |
+| Visualization | Tableau |
+| Documentation | ERD, Business Reports |
+
+---
+
+## 📊 Exploratory Data Analysis
+
+The analysis focused on:
+
+- Churn rate across genders
+- Customer demographics
+- Geographic distribution
+- Balance and salary patterns
+- Product usage
+- Customer activity levels
+- Dynamic parameter analysis
+
+---
+
+## 📈 Statistical Analysis
+
+The project includes:
+
+- Independent Samples T-Test
+- Chi-Square Test of Independence
+- One-Way ANOVA
+- Effect Size Measurements
+
+These tests validate whether customer attributes significantly influence churn behavior.
+
+---
+
+## 🤖 Machine Learning Models
+
+The following models were evaluated:
+
+- Logistic Regression
+- Random Forest
+- Support Vector Machine (RBF Kernel)
+- Support Vector Machine (Polynomial Kernel)
+- XGBoost
+
+Performance metrics were compared to determine the strongest baseline model.
+
+---
+
+## 📸 Dashboard Preview
+
+### Tableau Dashboard
+
+```markdown
+![Dashboard](documentation/figures/Dashboard%20Mock-Up.png)
+```
+
+---
+
+## 💡 Business Insights
+
+Key questions addressed:
+
+- Which customer segments are most likely to churn?
+- Does geography significantly influence retention?
+- How do account balances affect churn probability?
+- Are inactive members more likely to leave?
+- Which products improve customer loyalty?
+
+---
+
+## 🚀 How to Run
+
+### Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/bank-customer-churn-analytics-and-prediction.git
+```
+
+### Install Dependencies
+
+```bash
+pip install pandas numpy scikit-learn xgboost scipy matplotlib seaborn
+```
+
+### Run Experiments
+
+```bash
+python predictive_modelling/experiments/evaluation_script.py
+```
+
+### Open Dashboard
+
+Open:
+
+```text
+data_visualization/Churn Prediction.twb
+```
+
+using Tableau Desktop.
+
+---
+
+## 🎯 Skills Demonstrated
+
+- SQL Analytics
+- Database Design
+- Data Cleaning
+- Statistical Inference
+- Machine Learning
+- Feature Engineering
+- Tableau Dashboard Development
+- Business Intelligence
+- End-to-End Data Science Workflow
+
+---
+
+## 👨‍💻 Author
+
+**Siddharth Kumar Gupta**
+
+📧 siddharthkrgupta00007@gmail.com
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/siddharth-kumar-gupta-869247289/
