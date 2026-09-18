@@ -225,7 +225,7 @@ using Tableau Desktop.
 
 ## 👨‍💻 Author
 
-**Siddharth Kumar Gupta**
+**Harshit Kumar**
 
 📧 kumarharshit2912@gmail.com
 
