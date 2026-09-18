@@ -227,7 +227,7 @@ using Tableau Desktop.
 
 **Siddharth Kumar Gupta**
 
-📧 siddharthkrgupta00007@gmail.com
+📧 kumarharshit2912@gmail.com
 
 🔗 LinkedIn:
-https://www.linkedin.com/in/siddharth-kumar-gupta-869247289/
+https://www.linkedin.com/in/harshit-kumar-913936309/
